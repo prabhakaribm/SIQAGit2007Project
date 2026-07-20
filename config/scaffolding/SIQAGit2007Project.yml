@@ -7,3 +7,21 @@ packages:
   gitUrl: https://github.com/prabhakaribm
   gitUsername: prabhakaribm
   gitBranch: main
+- name: TPP_services_in_FCS
+  gitServerName: SIQAGitHub
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+services:
+- serviceName: project.siqagit2007.integrations:refdaf
+  packages:
+  - name: SIQAGit2007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqagit2007.referencedata:ref1
+  packages:
+  - name: SIQAGit2007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
