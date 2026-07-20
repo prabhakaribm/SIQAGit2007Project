@@ -1,0 +1,17 @@
+version: "1.0"
+projectName: SIQAGit2007Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: tppWorkflow
+    type: workflow
+    uid: fla435b7bc04de1c72fbafee
+    stepId: a0
+    reference: services:add3Ints
+- runtimeAlias: kvv_2007_AZPP
+  assets:
+  - name: tppWorkflow
+    type: workflow
+    uid: fla435b7bc04de1c72fbafee
+    stepId: a1
+    reference: services:add3Ints
